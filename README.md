@@ -1,12 +1,12 @@
 # Cuneiform-Sign-Detection-Code
 
-Author: Tobias Dencker - <tobias.dencker@gmail.com>
+This repository contains the code for the article:
+>Dencker, T., Klinkisch, P., Maul, S. M., and Ommer, B. (2020): Deep Learning of Cuneiform Sign Detection with Weak Supervision using Transliteration Alignment, PLOS ONE, 15:12, , pp. 1–21
+>[https://doi.org/10.1371/journal.pone.0243039](https://doi.org/10.1371/journal.pone.0243039)
 
-This is the code repository for the article submission on "Deep learning of cuneiform sign detection with weak supervision using transliteration alignment".
-
-This repository contains code to execute the proposed iterative training procedure as well as code to evaluate and visualize results.
-Moreover, we provide pre-trained models of the cuneiform sign detector for Neo-Assyrian script after iterative training on the [Cuneiform Sign Detection Dataset](https://compvis.github.io/cuneiform-sign-detection-dataset/).
-Finally, we provide a web application for the analysis of tablet images with the help of a pre-trained cuneiform sign detector.
+This repository contains code to run the proposed iterative training procedure, and the code to evaluate and visualize the detection results.
+We also provide the pre-trained models of the cuneiform sign detector for Neo-Assyrian script after completed iterative training on the [Cuneiform Sign Detection Dataset](https://compvis.github.io/cuneiform-sign-detection-dataset/).
+Finally, we make available a web application for the analysis of images of cuneiform clay tablets with the help of a pre-trained cuneiform sign detector.
 
 <img src="http://cunei.iwr.uni-heidelberg.de/cuneiformbrowser/functions/images_decent.jpg" alt="sign detections on tablet images: yellow box indicate TP and blue FP detections" width="700"/>
 <!--- <img src="http://cunei.iwr.uni-heidelberg.de/cuneiformbrowser/functions/images_difficult.jpg" alt="Web interface detection" width="500"/> -->
