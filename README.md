@@ -8,9 +8,6 @@ This repository contains code to run the proposed iterative training procedure, 
 We also provide the pre-trained models of the cuneiform sign detector for Neo-Assyrian script after completed iterative training on the [Cuneiform Sign Detection Dataset](https://compvis.github.io/cuneiform-sign-detection-dataset/).
 Finally, we make available a web application for the analysis of images of cuneiform clay tablets with the help of a pre-trained cuneiform sign detector.
 
-<img src="http://cunei.iwr.uni-heidelberg.de/cuneiformbrowser/functions/images_decent.jpg" alt="sign detections on tablet images: yellow box indicate TP and blue FP detections" width="700"/>
-<!--- <img src="http://cunei.iwr.uni-heidelberg.de/cuneiformbrowser/functions/images_difficult.jpg" alt="Web interface detection" width="500"/> -->
-
 ## Repository description
 
 - General structure:
@@ -85,15 +82,6 @@ We also provide a demo web application that enables a user to apply a trained cu
 The code of the web front-end is available in the [webapp repo](https://github.com/compvis/cuneiform-sign-detection-webapp/).
 The back-end code is part of this repository and is located in [lib/webapp/](./lib/webapp/).
 Below you find a short animation of how the sign detector is used with this web interface.
-
-<img src="http://cunei.iwr.uni-heidelberg.de/cuneiformbrowser/functions/demo_cuneiform_sign_detection.gif" alt="Web interface detection" width="700"/>
-
-
-For demonstration purposes, we also host an instance of the web application: [Demo Web Application](http://cunei.iwr.uni-heidelberg.de/cuneiformbrowser/).
-If you would like to test the web application, please contact us for user credentials to log in.
-Please note that this web application is a prototype for demonstration purposes only and not a production system.
-In case the website is not reachable, or other technical issues occur, please contact us.
-
 
 
 ### Cuneiform font
